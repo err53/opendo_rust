@@ -1,0 +1,18 @@
+name: OpenDo
+version: "1.0"
+author: Jason H. <jasonhuang20035@gmail.com>
+about: Open Source Todos
+args:
+  - add:
+      short: a
+      value_name: NAME
+      help: Add a new task
+      takes_value: true
+  - del:
+      short: d
+      value_name: INDEX
+      help: Delete a task
+      takes_value: true
+  - init:
+      long: init
+      help: Initialize database
